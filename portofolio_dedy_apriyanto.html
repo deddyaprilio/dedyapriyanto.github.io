@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Profesional - Dedy Apriyanto | Syariah Banking Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        /* Custom Islamic/Syariah Banking Theme Colors */
+        :root {
+            --syariah-primary: #059669; /* Emerald Green */
+            --syariah-primary-dark: #047857;
+            --syariah-secondary: #ecfdf5; /* Light Emerald */
+            --syariah-accent: #d97706; /* Amber/Gold for highlights */
+        }
+
+        .text-syariah-primary { color: var(--syariah-primary); }
+        .bg-syariah-primary { background-color: var(--syariah-primary); }
+        .bg-syariah-secondary { background-color: var(--syariah-secondary); }
+        .border-syariah-primary { border-color: var(--syariah-primary); }
+        
+        .hover-bg-syariah-dark:hover { background-color: var(--syariah-primary-dark); }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            border-color: var(--syariah-primary);
+        }
+        
+        .transition-all-300 {
+            transition: all 0.3s ease;
+        }
+
+        /* Subtle Islamic Geometric Pattern Background */
+        .bg-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23059669' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-emerald-200 selection:text-emerald-900 bg-pattern">
+
+    <!-- Navigation -->
+    <nav class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center gap-2">
+                        <div class="w-10 h-10 bg-syariah-primary rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                            DA
+                        </div>
+                        <span class="text-xl font-bold text-gray-900 tracking-tight">Dedy Apriyanto</span>
+                    </div>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#profil" class="text-gray-600 hover:text-syariah-primary font-medium transition-colors">Profil</a>
+                    <a href="#keahlian" class="text-gray-600 hover:text-syariah-primary font-medium transition-colors">Keahlian</a>
+                    <a href="#pencapaian" class="text-gray-600 hover:text-syariah-primary font-medium transition-colors">Pencapaian</a>
+                    <a href="#pengalaman" class="text-gray-600 hover:text-syariah-primary font-medium transition-colors">Pengalaman</a>
+                    <a href="mailto:deddyapriliochannel@gmail.com" class="bg-syariah-primary text-white px-5 py-2 rounded-full font-medium hover-bg-syariah-dark transition-colors shadow-md shadow-emerald-500/30">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="profil" class="relative pt-20 pb-24 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-7 order-2 lg:order-1 text-center lg:text-left">
+                    <div class="inline-flex items-center px-4 py-2 rounded-full bg-syariah-secondary text-syariah-primary text-sm font-semibold tracking-wide mb-6 border border-emerald-200">
+                        <i class="fas fa-star-and-crescent mr-2 text-xs"></i> Profesional Perbankan Syariah
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6 tracking-tight">
+                        Akselerasi <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-500">Ekonomi Umat</span><br>
+                        Melalui Ekosistem Mikro & Keagenan
+                    </h1>
+                    <p class="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto lg:mx-0">
+                        Relationship Manager dengan <strong>>7 tahun rekam jejak terbukti</strong> di 3 Bank BUMN ternama. Berkomitmen mendorong inklusi keuangan syariah melalui ekspansi pembiayaan produktif yang prudent, optimalisasi dana murah (CASA), dan digitalisasi UMKM.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#pengalaman" class="inline-flex justify-center items-center px-8 py-4 text-base font-semibold rounded-xl text-white bg-syariah-primary hover-bg-syariah-dark transition-all-300 shadow-lg shadow-emerald-500/30 group">
+                            Lihat Rekam Jejak
+                            <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                        <a href="CV dedy 2027.pdf" target="_blank" class="inline-flex justify-center items-center px-8 py-4 text-base font-semibold rounded-xl text-gray-700 bg-white border-2 border-gray-200 hover:border-syariah-primary hover:text-syariah-primary transition-all-300">
+                            <i class="fas fa-download mr-2"></i> Unduh CV (PDF)
+                        </a>
+                    </div>
+                    
+                    <div class="mt-10 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-sm text-gray-600 font-medium">
+                        <div class="flex items-center"><div class="w-8 h-8 rounded-full bg-emerald-50 flex items-center justify-center mr-3"><i class="fas fa-graduation-cap text-syariah-primary"></i></div> S2 Manajemen (IPK 3.87)</div>
+                        <div class="flex items-center"><div class="w-8 h-8 rounded-full bg-emerald-50 flex items-center justify-center mr-3"><i class="fas fa-map-marker-alt text-syariah-primary"></i></div> Tangerang, Banten</div>
+                    </div>
+                </div>
+                
+                <div class="lg:col-span-5 order-1 lg:order-2 flex justify-center lg:justify-end">
+                    <div class="relative w-72 h-[400px] sm:w-80 sm:h-[450px]">
+                        <!-- Decorative elements -->
+                        <div class="absolute inset-0 bg-gradient-to-tr from-emerald-600 to-teal-400 rounded-[2rem] transform rotate-6 opacity-20 transition-transform duration-700 hover:rotate-12"></div>
+                        <div class="absolute inset-0 bg-syariah-secondary rounded-[2rem] transform -rotate-3 border-2 border-emerald-100"></div>
+                        <!-- Profile Image -->
+                        <div class="absolute inset-0 rounded-[2rem] overflow-hidden border-4 border-white shadow-2xl">
+                            <img src="Gemini_Generated_Image_ygwhx7ygwhx7ygwh.png" alt="Dedy Apriyanto" class="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-105">
+                        </div>
+                        
+                        <!-- Floating Badge -->
+                        <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-xl border border-gray-100 animate-bounce" style="animation-duration: 3s;">
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center text-amber-600 text-xl">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-gray-500 font-medium">Top Performer</p>
+                                    <p class="text-sm font-bold text-gray-900">3 Bank BUMN</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Value Proposition (Syariah Focus) -->
+    <section class="py-12 bg-syariah-primary relative overflow-hidden">
+        <!-- Abstract geometric decoration -->
+        <div class="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-white opacity-5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-white opacity-5 rounded-full blur-3xl"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 divide-y md:divide-y-0 md:divide-x divide-emerald-500/50">
+                <div class="text-center md:px-6 py-4 md:py-0">
+                    <h3 class="text-4xl font-bold text-white mb-2">>7 Tahun</h3>
+                    <p class="text-emerald-100 font-medium">Pengalaman Bisnis Mikro & Agen</p>
+                </div>
+                <div class="text-center md:px-6 py-4 md:py-0">
+                    <h3 class="text-4xl font-bold text-white mb-2">>600</h3>
+                    <p class="text-emerald-100 font-medium">Mitra Agen Dikelola (Akumulatif)</p>
+                </div>
+                <div class="text-center md:px-6 py-4 md:py-0">
+                    <h3 class="text-4xl font-bold text-white mb-2">Teruji</h3>
+                    <p class="text-emerald-100 font-medium">Menjaga Kualitas Pembiayaan (Low NPF)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keahlian Utama -->
+    <section id="keahlian" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-syariah-primary font-semibold tracking-wider uppercase text-sm">Kompetensi Inti</span>
+                <h2 class="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">Keahlian Strategis & Operasional</h2>
+                <div class="mt-4 w-24 h-1.5 bg-syariah-primary mx-auto rounded-full opacity-80"></div>
+                <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Membawa perpaduan kuat antara teori manajemen (S2) dan eksekusi lapangan untuk mendorong pertumbuhan bisnis perbankan syariah yang sehat dan berkah.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skill 1 -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 card-hover transition-all-300 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-syariah-secondary rounded-bl-full -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+                    <div class="w-14 h-14 bg-syariah-primary rounded-xl flex items-center justify-center text-white mb-6 relative z-10 shadow-md">
+                        <i class="fas fa-hand-holding-usd text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 relative z-10">Manajemen Pembiayaan Mikro</h3>
+                    <p class="text-gray-600 relative z-10">Keahlian mendalam dalam analisis kelayakan, penyaluran pembiayaan produktif (KUR/KUM/UMI), dan mitigasi risiko untuk menjaga NPF (Non-Performing Financing) yang sangat sehat sesuai prinsip kehati-hatian.</p>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 card-hover transition-all-300 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-syariah-secondary rounded-bl-full -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+                    <div class="w-14 h-14 bg-syariah-primary rounded-xl flex items-center justify-center text-white mb-6 relative z-10 shadow-md">
+                        <i class="fas fa-network-wired text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 relative z-10">Ekosistem Keagenan (Branchless)</h3>
+                    <p class="text-gray-600 relative z-10">Rekam jejak terbukti dalam rekrutmen, <i>sales coaching</i>, edukasi, dan pemeliharaan produktivitas ratusan agen bank untuk memperluas jangkauan layanan keuangan ke pelosok (inklusi).</p>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 card-hover transition-all-300 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-syariah-secondary rounded-bl-full -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+                    <div class="w-14 h-14 bg-syariah-primary rounded-xl flex items-center justify-center text-white mb-6 relative z-10 shadow-md">
+                        <i class="fas fa-wallet text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 relative z-10">Funding & Ekosistem Digital</h3>
+                    <p class="text-gray-600 relative z-10">Strategi penetrasi pasar agresif untuk peningkatan Dana Pihak Ketiga (CASA) murah dan akuisisi <i>merchant</i> QRIS dalam membangun ekosistem <i>closed-loop</i> bagi UMKM.</p>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 card-hover transition-all-300 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-syariah-secondary rounded-bl-full -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+                    <div class="w-14 h-14 bg-syariah-primary rounded-xl flex items-center justify-center text-white mb-6 relative z-10 shadow-md">
+                        <i class="fas fa-chart-pie text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 relative z-10">Data Analysis & Reporting</h3>
+                    <p class="text-gray-600 relative z-10">Mahir menggunakan Microsoft Excel untuk monitoring performa bisnis harian, penyusunan laporan komprehensif, dan analisis data pipeline untuk pengambilan keputusan berbasis data.</p>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 card-hover transition-all-300 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-syariah-secondary rounded-bl-full -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+                    <div class="w-14 h-14 bg-syariah-primary rounded-xl flex items-center justify-center text-white mb-6 relative z-10 shadow-md">
+                        <i class="fas fa-shield-alt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 relative z-10">Kepatuhan (Compliance) & SOP</h3>
+                    <p class="text-gray-600 relative z-10">Pemahaman kuat terhadap regulasi perbankan, prosedur KYC (Know Your Customer), dan penerapan SOP operasional yang ketat untuk memitigasi risiko bisnis dan reputasi.</p>
+                </div>
+
+                <!-- Skill 6 -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 card-hover transition-all-300 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-syariah-secondary rounded-bl-full -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+                    <div class="w-14 h-14 bg-syariah-primary rounded-xl flex items-center justify-center text-white mb-6 relative z-10 shadow-md">
+                        <i class="fas fa-bullhorn text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 relative z-10">Edukasi Literasi Keuangan</h3>
+                    <p class="text-gray-600 relative z-10">Kemampuan komunikasi publik dan pembuatan konten untuk meningkatkan literasi keuangan masyarakat, membantu edukasi produk syariah secara efektif dan mudah dipahami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlight Prestasi -->
+    <section id="pencapaian" class="py-20 bg-gray-50 border-y border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-syariah-primary font-semibold tracking-wider uppercase text-sm">Track Record</span>
+                <h2 class="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">Pencapaian Nasional & Regional</h2>
+                <div class="mt-4 w-24 h-1.5 bg-syariah-primary mx-auto rounded-full opacity-80"></div>
+                <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Konsistensi dalam memberikan performa terbaik, diakui melalui berbagai penghargaan bergengsi di tingkat wilayah dan nasional.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- BNI -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 relative overflow-hidden transition-all hover:shadow-xl hover:-translate-y-1">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-orange-100 to-transparent rounded-bl-full -mr-8 -mt-8"></div>
+                    <div class="flex items-center justify-between mb-6 relative z-10">
+                        <h3 class="text-2xl font-black text-orange-600 tracking-tight">BNI</h3>
+                        <div class="w-12 h-12 bg-orange-50 rounded-full flex items-center justify-center text-orange-500">
+                            <i class="fas fa-trophy text-xl"></i>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 relative z-10">
+                        <li class="flex items-start">
+                            <i class="fas fa-medal text-amber-500 mt-1 mr-3 text-lg"></i>
+                            <span class="text-gray-800 font-medium">Ranking 1 Bisnis Agen46 <span class="text-gray-500 text-sm block font-normal">(2025)</span></span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-medal text-amber-500 mt-1 mr-3 text-lg"></i>
+                            <span class="text-gray-800 font-medium">Best Sales Inspiratif <span class="text-gray-500 text-sm block font-normal">(2025)</span></span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-medal text-amber-500 mt-1 mr-3 text-lg"></i>
+                            <span class="text-gray-800 font-medium">Agen46 RM Terbaik <span class="text-gray-500 text-sm block font-normal">(2024)</span></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Mandiri -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 relative overflow-hidden transition-all hover:shadow-xl hover:-translate-y-1">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-100 to-transparent rounded-bl-full -mr-8 -mt-8"></div>
+                    <div class="flex items-center justify-between mb-6 relative z-10">
+                        <h3 class="text-2xl font-black text-blue-600 tracking-tight">MANDIRI</h3>
+                        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center text-blue-500">
+                            <i class="fas fa-trophy text-xl"></i>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 relative z-10">
+                        <li class="flex items-start">
+                            <i class="fas fa-medal text-amber-500 mt-1 mr-3 text-lg"></i>
+                            <span class="text-gray-800 font-medium">Top 1 SGP Region 3 <span class="text-gray-500 text-sm block font-normal">(2023)</span></span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-medal text-amber-500 mt-1 mr-3 text-lg"></i>
+                            <span class="text-gray-800 font-medium">Top 3 SGP Region <span class="text-gray-500 text-sm block font-normal">(2023 & 2024)</span></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- BRI -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 relative overflow-hidden transition-all hover:shadow-xl hover:-translate-y-1">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-900/10 to-transparent rounded-bl-full -mr-8 -mt-8"></div>
+                    <div class="flex items-center justify-between mb-6 relative z-10">
+                        <h3 class="text-2xl font-black text-blue-800 tracking-tight">BRI</h3>
+                        <div class="w-12 h-12 bg-blue-50 rounded-full flex items-center justify-center text-blue-800">
+                            <i class="fas fa-trophy text-xl"></i>
+                        </div>
+                    </div>
+                    <ul class="space-y-4 relative z-10">
+                        <li class="flex items-start">
+                            <i class="fas fa-medal text-amber-500 mt-1 mr-3 text-lg"></i>
+                            <span class="text-gray-800 font-medium">Ranking 1 Bisnis BRILink Kanwil 3 <span class="text-gray-500 text-sm block font-normal">(2021)</span></span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-medal text-amber-500 mt-1 mr-3 text-lg"></i>
+                            <span class="text-gray-800 font-medium">Ranking 4 PAB Terbaik Kanwil 3 <span class="text-gray-500 text-sm block font-normal">(2021)</span></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pengalaman Kerja Timeline -->
+    <section id="pengalaman" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-syariah-primary font-semibold tracking-wider uppercase text-sm">Riwayat Profesional</span>
+                <h2 class="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">Perjalanan Karier</h2>
+                <div class="mt-4 w-24 h-1.5 bg-syariah-primary mx-auto rounded-full opacity-80"></div>
+            </div>
+
+            <div class="relative border-l-2 border-emerald-200 ml-4 md:ml-0 md:pl-0">
+                
+                <!-- BNI -->
+                <div class="mb-12 relative md:pl-12 pl-8 group">
+                    <div class="absolute w-8 h-8 bg-white border-4 border-syariah-primary rounded-full -left-[17px] md:-left-[17px] top-1 group-hover:bg-syariah-primary transition-colors flex items-center justify-center">
+                        <div class="w-2 h-2 bg-syariah-primary rounded-full group-hover:bg-white transition-colors"></div>
+                    </div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                        <h3 class="text-2xl font-bold text-gray-900">BANK BNI</h3>
+                        <span class="inline-block bg-syariah-secondary text-syariah-primary px-4 py-1 rounded-full text-sm font-bold border border-emerald-100 mt-2 md:mt-0 shadow-sm">2024 - 2026</span>
+                    </div>
+                    <h4 class="text-lg font-semibold text-syariah-primary mb-4 flex items-center">
+                        <i class="fas fa-briefcase mr-2 text-sm"></i> Agen 46 Relationship Manager
+                    </h4>
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                        <ul class="list-none space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-syariah-primary mt-1 mr-3 text-sm"></i>
+                                <span><strong>Pemberdayaan Kemitraan:</strong> Mengelola >250 mitra agen, memastikan produktivitas transaksi harian dan kepatuhan operasional sesuai standar dan regulasi perbankan.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-syariah-primary mt-1 mr-3 text-sm"></i>
+                                <span><strong>Ekspansi Ekosistem:</strong> Melakukan penetrasi agresif melalui akuisisi <em>merchant</em> QRIS, akselerasi pembukaan rekening (CASA) berbasis keagenan, dan <em>cross-selling</em> produk fasilitas perbankan lainnya.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-syariah-primary mt-1 mr-3 text-sm"></i>
+                                <span><strong>Edukasi & Pendampingan:</strong> Memberikan bimbingan teknis berkelanjutan (termasuk <em>maintenance</em> EDC) kepada mitra untuk memaksimalkan volume transaksi dan kemandirian bisnis agen.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Mandiri -->
+                <div class="mb-12 relative md:pl-12 pl-8 group">
+                    <div class="absolute w-8 h-8 bg-white border-4 border-syariah-primary rounded-full -left-[17px] md:-left-[17px] top-1 group-hover:bg-syariah-primary transition-colors flex items-center justify-center">
+                        <div class="w-2 h-2 bg-syariah-primary rounded-full group-hover:bg-white transition-colors"></div>
+                    </div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                        <h3 class="text-2xl font-bold text-gray-900">BANK MANDIRI</h3>
+                        <span class="inline-block bg-syariah-secondary text-syariah-primary px-4 py-1 rounded-full text-sm font-bold border border-emerald-100 mt-2 md:mt-0 shadow-sm">2023 - 2024</span>
+                    </div>
+                    <h4 class="text-lg font-semibold text-syariah-primary mb-4 flex items-center">
+                        <i class="fas fa-briefcase mr-2 text-sm"></i> Sales Generalis Produktif
+                    </h4>
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                        <ul class="list-none space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-syariah-primary mt-1 mr-3 text-sm"></i>
+                                <span><strong>Pembiayaan Produktif Mikro:</strong> Mengelola dan mengekspansi portofolio pembiayaan produktif (KUR & KUM) bagi UMKM dengan melakukan analisis kelayakan finansial yang komprehensif dan prudent.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-syariah-primary mt-1 mr-3 text-sm"></i>
+                                <span><strong>Manajemen Risiko (NPL/NPF):</strong> Menjalankan monitoring kualitas portofolio secara disiplin guna memitigasi risiko gagal bayar dan memastikan rasio pembiayaan bermasalah berada pada level yang diwajibkan perusahaan.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-syariah-primary mt-1 mr-3 text-sm"></i>
+                                <span><strong>Sinergi Bisnis Terintegrasi:</strong> Mendorong digitalisasi UMKM melalui akuisisi DPK (CASA) murah, implementasi sistem pembayaran QRIS, dan sinergi aktif dengan jaringan Agen Mandiri.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- BRI -->
+                <div class="relative md:pl-12 pl-8 group">
+                    <div class="absolute w-8 h-8 bg-white border-4 border-syariah-primary rounded-full -left-[17px] md:-left-[17px] top-1 group-hover:bg-syariah-primary transition-colors flex items-center justify-center">
+                        <div class="w-2 h-2 bg-syariah-primary rounded-full group-hover:bg-white transition-colors"></div>
+                    </div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+                        <h3 class="text-2xl font-bold text-gray-900">BANK BRI</h3>
+                        <span class="inline-block bg-syariah-secondary text-syariah-primary px-4 py-1 rounded-full text-sm font-bold border border-emerald-100 mt-2 md:mt-0 shadow-sm">2017 - 2023</span>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <h4 class="text-lg font-semibold text-syariah-primary mb-3 flex items-center">
+                            <i class="fas fa-briefcase mr-2 text-sm"></i> Petugas Pembina Bisnis Keagenan <span class="ml-2 text-sm font-medium text-gray-500 bg-gray-100 px-2 py-0.5 rounded-full border border-gray-200">2020 - 2023</span>
+                        </h4>
+                        <div class="bg-gray-50 rounded-xl p-5 border border-gray-100 shadow-sm">
+                            <ul class="list-none space-y-2 text-gray-700">
+                                <li class="flex items-start"><i class="fas fa-check text-syariah-primary mt-1 mr-3 text-sm"></i>Mengorkestrasi >350 agen Laku Pandai (BRILink), memastikan kepatuhan standar layanan operasional dan pencapaian target SLA transaksi.</li>
+                                <li class="flex items-start"><i class="fas fa-check text-syariah-primary mt-1 mr-3 text-sm"></i>Meningkatkan <em>Fee Based Income</em> (FBI) cabang secara signifikan melalui penetrasi pasar ekosistem digital (QRIS, CASA) dan <em>cross-selling</em> produk asuransi mikro pelindung aset nasabah.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="text-lg font-semibold text-syariah-primary mb-3 flex items-center">
+                            <i class="fas fa-headset mr-2 text-sm"></i> Customer Service <span class="ml-2 text-sm font-medium text-gray-500 bg-gray-100 px-2 py-0.5 rounded-full border border-gray-200">2017 - 2020</span>
+                        </h4>
+                        <div class="bg-gray-50 rounded-xl p-5 border border-gray-100 shadow-sm">
+                            <ul class="list-none space-y-2 text-gray-700">
+                                <li class="flex items-start"><i class="fas fa-check text-syariah-primary mt-1 mr-3 text-sm"></i>Menerapkan <em>Service Excellence</em> tingkat tinggi dalam melayani kebutuhan transaksional, pembukaan rekening, administrasi deposisto, dan penyelesaian keluhan (handling complaint) nasabah.</li>
+                                <li class="flex items-start"><i class="fas fa-check text-syariah-primary mt-1 mr-3 text-sm"></i>Berkontribusi proaktif pada pencapaian target bisnis unit kerja melalui <em>cross-selling</em> produk pembiayaan Ultra Mikro (UMI), bancassurance, dan layanan E-Channel kepada nasabah <em>walk-in</em>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / CTA -->
+    <footer class="bg-[#0f172a] text-white py-16 relative overflow-hidden">
+        <!-- Background decorative elements -->
+        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-emerald-400 via-teal-500 to-emerald-400"></div>
+        <div class="absolute bottom-0 right-0 w-64 h-64 bg-emerald-900/20 rounded-full blur-3xl"></div>
+        
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 tracking-tight">Siap Mendorong Pertumbuhan <br class="hidden md:block">Ekosistem Keuangan Syariah?</h2>
+            <p class="text-gray-400 mb-10 max-w-2xl mx-auto text-lg">
+                Dengan kapabilitas teruji dalam pengembangan bisnis agen, ekspansi pembiayaan mikro yang berkualitas, dan akuisisi ekosistem digital, saya siap memberikan kontribusi nyata bagi visi strategis perusahaan Anda di industri perbankan syariah.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6 mb-12">
+                <a href="mailto:deddyapriliochannel@gmail.com" class="flex items-center gap-3 bg-syariah-primary hover:bg-emerald-500 text-white px-8 py-4 rounded-xl font-medium transition-all shadow-lg shadow-emerald-900/50 w-full sm:w-auto justify-center">
+                    <i class="fas fa-envelope text-xl"></i>
+                    deddyapriliochannel@gmail.com
+                </a>
+                <a href="https://wa.me/6285700000725" target="_blank" class="flex items-center gap-3 bg-[#25D366] hover:bg-[#20b858] text-white px-8 py-4 rounded-xl font-medium transition-all shadow-lg shadow-green-900/50 w-full sm:w-auto justify-center">
+                    <i class="fab fa-whatsapp text-xl"></i>
+                    0857-0000-0725
+                </a>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">
+                    &copy; 2026 Dedy Apriyanto. S2 Manajemen Universitas Pamulang.
+                </p>
+                <div class="flex gap-4 text-gray-500">
+                    <span class="text-sm">Alamat: Rajeg, Kab. Tangerang, Banten</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Smooth Scrolling Script -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
